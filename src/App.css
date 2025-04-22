@@ -15,6 +15,7 @@ body{
     color:#715e5e;
     max-width: 312px;
     margin-top: 52px;
+    justify-self: anchor-center;
     
 }
  .todo{
