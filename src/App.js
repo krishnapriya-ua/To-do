@@ -60,6 +60,7 @@ export default function App() {
   return (
     <div className="mainapp">
       <h2 className="todo">TO DO LIST</h2>
+      
 
       <form onSubmit={handleSubmit}>
         <label style={{ fontWeight: 'bold' }}>Add your task here</label><br /><br />
@@ -75,7 +76,7 @@ export default function App() {
       <h3>Tasks</h3>
 
       {tasks.length === 0 ? (
-        <p> No tasks yet!!Please enter a task</p>
+        <p> No tasks yet, Please enter a task <br/>- KP</p>
       ) : (
         tasks.map((taskItem, index) => (
           <div className="task-item" key={index}>
