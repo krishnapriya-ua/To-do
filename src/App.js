@@ -75,7 +75,7 @@ export default function App() {
       <h3>Tasks</h3>
 
       {tasks.length === 0 ? (
-        <p> No tasks yet!!</p>
+        <p>sorry,  No tasks yet!!</p>
       ) : (
         tasks.map((taskItem, index) => (
           <div className="task-item" key={index}>
